@@ -1,3 +1,3 @@
 # Html-CSS
  
-<a hrfe="www.google.com.br"> abrir o google</a>
+<a hrfe="https://felipe-bastos97.github.io/Html-CSS/EX1/"> abrir o google</a>
