@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        
+        td{
+        border: 1px solid black;
+        text-align: right;/*alinhamento horizontal center,left,right*/
+        vertical-align: middle;/*Alinhamento Vertical bottom,top,middle*/
+            }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+            height: 400px;
+            
+        }
+        :hover.linha{
+            background-color: aqua;
+            color:rgb(240, 12, 12)
+            
+        }
+        :hover.dado{
+           background-color: black;
+           color:white
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira Tabelas</h1>
+    
+    <!--Hierarquia de tabelas
+    table= tabela
+        table row = linha de tabelas
+            table header= cabeçalho de tabela
+                table data= dado de tabela-->
+    <table>
+        <tr><!-- primeira linha-->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr class="linha"><!-- segunda linha-->
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td>A3</td><!-- terceira linha-->
+            <td class="dado">B3</td>
+            <td>C3</td>
+        </tr>
+        </tr>
+        
+    </table>
+    
+</body>
+</html>
