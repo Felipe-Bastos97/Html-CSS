@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 
+
 *{
     margin: 0px;
     padding: 0px;
@@ -15,7 +16,7 @@ body{
 }
 
 header{
-    text-align: center;
+    text-align: left;
     padding: 10px;
     
     background-color: rgb(128, 128, 128);
@@ -23,6 +24,9 @@ header{
     
     
     
+}
+header>h1{
+    text-align: center;
 }
 span#burguer{
     
@@ -55,13 +59,15 @@ menu>ul{
     color: rgb(199, 199, 199);
     border-top: 2px solid rgba(0, 0, 0, 0);
     height: 30px;
-    width: auto;
+    width: 100px;
     display: block;
     margin-top:3px;
     text-decoration: none;
     font-weight: bold;
     transition: 0.5s;
     padding: 10px 1px 1px 10px;
+    
+   
    
   
     
