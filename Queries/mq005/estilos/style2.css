@@ -8,9 +8,12 @@
     menu{
         display: block;
     }
-.op{
+    .op{
         display: inline-block;
-        
+
+    }
+    main{
+        width: 768px;
     }
     
 }
