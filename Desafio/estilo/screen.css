@@ -1,8 +1,47 @@
 @charset "UTF-8";
-@media screen and (max-width:780) {
 
-   main> #papelfundo{
-        background-color: black;
+@media screen and (min-width: 780px) {
+
+
+   img>#papelfundo{
+      background:url(../Imagens/780px.jpg);
+      
+       
        
     }
+main{
+    background-color: white;
+    
+    width: 800px;
+    height: 780px;
+    text-align: right auto;   
+    border: 2px solid black;
+    border-radius: 3%;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+   
+   
+    
+}
+
+}
+@media screen and (min-width: 1280px) {
+    main{
+        background-color: white;
+        
+        width: 1200px;
+        height: 968px;
+        text-align: right auto;   
+        border: 2px solid black;
+        border-radius: 3%;
+        position: relative;
+        margin: auto;
+        margin-top: 50px;
+       
+       
+        
+    }
+
+
 }
