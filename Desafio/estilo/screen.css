@@ -2,28 +2,24 @@
 
 @media screen and (min-width: 780px) {
 
-
-   img>#papelfundo{
-      background:url(../Imagens/780px.jpg);
-      
-       
-       
-    }
 main{
     background-color: white;
     
+    
     width: 800px;
-    height: 780px;
-    text-align: right auto;   
+    height: 375px;
+     
     border: 2px solid black;
     border-radius: 3%;
-    position: relative;
-    margin: auto;
-    margin-top: 50px;
-   
-   
-    
+      
 }
+main>img{
+    display: none;
+    
+    
+
+}
+
 
 }
 @media screen and (min-width: 1280px) {
@@ -31,7 +27,7 @@ main{
         background-color: white;
         
         width: 1200px;
-        height: 968px;
+        height: 500px;
         text-align: right auto;   
         border: 2px solid black;
         border-radius: 3%;

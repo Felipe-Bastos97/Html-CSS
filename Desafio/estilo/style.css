@@ -41,14 +41,10 @@ main{
     height: 20px;
 }
 
-#entrar{
+.buttom{
     width: 280px;
     height: 50px;
     background-color: rgb(56, 175, 175);
     margin-top: 10px;
-}
-#limpar{
-    width: 280px;
-    height: 50px;
-    margin-top: 10px;
+
 }
