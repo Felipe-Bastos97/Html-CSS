@@ -14,11 +14,11 @@
         <h1>Login</h1>
         <p> Seja bem vindo novamente, faça login para poder acessar sua conta </p><br>
         <form action="cadastro.php" method="post">
-        <p>
+        <p id="fpemail">
         <label for="iemail"><img id="iconlogin"src="Imagens/icon.login.png" alt="icon.login"></label>
         <input type="email" name="email" id="iemail" required> 
         </p>
-        <p>
+        <p id="fpsenha">
         <label for="isenha"><img id="iconsenha" src="Imagens/icon.senha.png" alt="senha"></label>
         <input type="password" name="Senha" id="isenha" required>
         </p>
@@ -26,7 +26,7 @@
         <div>
             <p>
                 <input class="buttom" type="submit" value="Entrar">
-                <input class="buttom" type="reset" value="Limpar">
+                <input class="buttom" type="reset" value="Esqueceu a senha">
             </p>
         </div>
     </form>
