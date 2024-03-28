@@ -35,29 +35,70 @@ main{
    
    
 }
+/*Icone de email e senha*/
 #iconlogin{
-    width: 20px;
-    height: 20px;
-    
-    
-    
+    width: 25px;
+    height: 25px;  
+    margin: 5px; 
 }
 #iconsenha{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    
+    
 }
 #fpemail{
-    background-color: blue;
-    margin-bottom: 1px;
+    background-color: rgb(228, 86, 30);
+    margin-bottom: 4px;
+    width: 50px;
+    height: 34px;
+    margin-left: 20px;
+    border-radius: 8px 0px 0px 8px;
+   
+    
+    
 }
 #fpsenha{
-    background-color: blue;
+    background-color: rgb(228, 86, 30);;
+    width: 50px;
+    margin-left: 20px;
+    height: 34px;
+    border-radius: 8px 0px 0px 8px;
+
+    
 }
+/* Barra de input*/
+#idsenha{
+   width: 200px;
+   height: 30px;
+   margin-left: 6px;
+   
+   
+   background-color:  rgba(228, 86, 30, 0.384);
+   border-radius: 0px 8px 8px 0px;
+   position: absolute;
+  
+   
+   
+
+}
+#idemail{
+    width: 200px;
+    height: 30px;
+    
+    border-radius: 0px 8px 8px 0px;
+    background-color:  rgba(228, 86, 30, 0.384);
+    margin-left: 6px;
+    position: absolute;
+}
+
+/*Entrar e esqueceu senha*/
 
 .buttom{
     width: 280px;
     height: 50px;
-    background-color: rgb(56, 175, 175);
+    background-color: rgba(228, 86, 30, 0.726);
     margin-top: 5px;
     color: white;
 
